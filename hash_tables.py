@@ -5,7 +5,7 @@ s = 3
 
 print(n%s)
 print(n/s)
-print(n)
+
 
 """
 Inserting a key/value pair: O(1) on avg.; O(n) in the worse case

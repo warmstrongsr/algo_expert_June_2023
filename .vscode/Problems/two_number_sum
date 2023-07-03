@@ -12,7 +12,7 @@ def twonumbersum(array, targetsum):
 
     return []
 
-# Example usage
+# Sample Input
 array = [3, 5, -4, 8, 11, 1, -1, 6]
 targetsum = 10
 result = twonumbersum(array, targetsum)
@@ -33,7 +33,7 @@ def twonumbersum(array, targetsum):
 
     return []
 
-# Example usage
+# Sample Input
 array = [3, 5, -4, 8, 11, 1, -1, 6]
 targetsum = 10
 result = twonumbersum(array, targetsum)
