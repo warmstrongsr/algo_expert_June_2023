@@ -30,11 +30,35 @@ def twonumbersum(array, targetsum):
             return [difference, num]
 
         seen.add(num)
-
+        print(seen)
     return []
 
 # Sample Input
 array = [3, 5, -4, 8, 11, 1, -1, 6]
 targetsum = 10
+result = twonumbersum(array, targetsum)
+print(result)
+
+
+array = [3, 5, -4, 9, 11, 1, -1, 6]
+targetsum = 2
+result = twonumbersum(array, targetsum)
+print(result)
+
+def twonumbersum(array, targetsum):
+    seen = set()
+    
+    for num in array:
+        difference = targetsum - num
+        
+        if difference in seen:
+            return [difference, num]
+        
+        seen.add(num)
+    return []    
+
+print('Hello World')
+array = [3, 5, -4, 9, 11, 1, -1, 6]
+targetsum = 2
 result = twonumbersum(array, targetsum)
 print(result)
