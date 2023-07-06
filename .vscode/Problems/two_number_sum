@@ -18,6 +18,14 @@ targetsum = 10
 result = twonumbersum(array, targetsum)
 print(result)
 
+
+""" targetsum = 10
+    currentnum = x
+    
+    x + y = 10  so...  
+    y = 10 - x  
+    solve for y 
+"""
 # For nun in array variant | for element in iterable | best when the need is to access the elements of the iterable exclusively
 
 def twonumbersum(array, targetsum):
