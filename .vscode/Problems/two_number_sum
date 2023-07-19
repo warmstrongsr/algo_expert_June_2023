@@ -26,7 +26,7 @@ print(result)
     y = 10 - x  
     solve for y 
 """
-# For nu in array variant | for element in iterable | best when the need is to access the elements of the iterable exclusively1
+# For nu in array variant | for element in iterable | best when the need is to access the elements of the iterable exclusively
 
 def twonumbersum(array, targetsum):
     seen = set()
